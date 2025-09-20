@@ -1,0 +1,12 @@
+class Times_pe: 
+  def exibir_time_serie_a(self):
+    print(f'Time_serie_a:{self.time_serie_a}')  
+  def exibir_time_serie_d(self): 
+    print(f"Time_serie_d:{self.time_serie_d}")
+
+t1= Times_pe()  
+t1.time_serie_a = 'Sport clube recife'
+t1.time_serie_d = 'Santa Cruz'
+
+t1.exibir_time_serie_a()
+t1.exibir_time_serie_d()
